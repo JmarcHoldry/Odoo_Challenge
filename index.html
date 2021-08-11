@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/odoo_favicon.ico">
+    <script src="https://kit.fontawesome.com/dcf605e211.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header class="header"> 
+        
+        <nav class="flex flex-jc-sb flex-ai-c ">
+          <a href="/" class="header__logo mobile">
+            <img src="./img/odoo-white.svg" alt="Odoo">
+          </a>
+          <div class="header__links hide-for-mobile">
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Pages</a>
+            <a href="#">App</a>
+            <a href="#">Docs</a>
+            <a href="#">Sign Up/Sign In</a>
+          </div>
+          
+          <button type="button" class="btn btn-primary btn-sm hide-for-mobile"><i class="fas fa-shopping-bag"></i> Buy Now</button>
+        </nav>
+      </header>
+        <section class="hero ">
+          <div class="hero__image"></div>
+            
+          <div class="hero_cont flex">
+          <div class="hero__text">
+            <h1>
+              Development done right
+            </h1>
+            <p class="subheading">
+              Build a beautiful, modern website with flexible components built from scratch.
+            </p>
+            <button type="button" class="btn btn-primary btn-sm ">Get Started <i class="fas fa-plus"></i></button>
+            <div class="hero__trusted">
+              <p>
+                Trusted by :
+              </p>
+              <img class="hero__trusted__img" src="./img/google-white.svg" alt="">
+              <img class="hero__trusted__img" src="./img/spotify-white.svg" alt="">
+              <img class="hero__trusted__img" src="./img/airbnb-white.svg" alt="">
+              <img class="hero__trusted__img" src="./img/paypal-white.svg" alt="">
+            </div>
+          </div>
+          <div class="hero__box">
+            <div class="hero__card">
+              <div class="hero__mastercard">
+                <p>Manage cards</p>
+                <button type="button" class="btn btn-outline-secondary">Add New</button>
+                <img src="./img/mastercard.svg.svg" alt="mastercard image">
+              </div>
+                <div class="info">
+                  <h3 >Starbucks</h3>
+                  <h3 class="price">$5,50 US</h3>
+                  <p>Pending - San Francisco, United States</p>
+                  <hr>
+                  <h3>Nike Sports</h3>
+                  <h3 class="price">$129,00 USD</h3>
+                  <p>Pending - Lisbon, Portugal</p>
+                  <hr>
+                  <button type="button" class="btn btn-link">View All ></button>
+                </div>
+            </div>
+          </div>
+        </div>
+          
+        </section>
+
+        
+        <section class="projects ">
+        <div class="flex">
+          <div class="projects__barcard ">
+            <h3>Awseome Projects</h3>
+            <p>Create the new logo</p>
+            <p class="timer">3:50 ></p>
+            <div class="progress" style="height: 2px;">
+              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p>Set up the color palette</p>
+            <p class="timer">4:00 ></p>
+            <div class="progress" style="height: 2px;">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p>Wireframe and prototype</p>
+            <p class="timer">6:50 ></p>
+            <div class="progress" style="height: 2px;">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+              <img src="./img/img_01.jpg" alt="people">
+          </div>
+
+          <div class="projects__text ">
+            <h3>Tools</h3>
+            <h4>We build for designers and developers</h4>
+            <p>Get components and examples, including tons of variables that will help you grow your business.</p>
+          </div>
+        </div>
+
+          <div class="projects__text2 flex">
+            <div>
+            <h3>Features</h3>
+            <p class="title">Get components and examples, including
+                tons of variables that will help you grow your
+                business.</p>
+            <p><i class="fas fa-check-square"></i>  Perfect for modern startups</p>
+            <p><i class="fas fa-check-square"></i>  Fully customizable and scalable</p>
+          </div>
+          <div class="image">
+            <img class="image__img" src="./img/img_02.jpg" alt="people">
+            <div class="image__overlay">
+                <div class="image__title">Play video <i class="fas fa-play"></i></div>
+            </div>
+          </div>
+             
+          </div>
+        <div class="flex">
+          <div class="projects__usercard flex">
+            <div class="wrap1">
+              <div class=" card1 card" style="width: 85%;">
+               <img src="./img/person_03.jpg" class="card-img-top" alt="User Images">
+               <div class="card-body">
+                  <p class="card-text">Jimmy Hendrix <i class="far fa-heart"></i></p>
+                  <div class="username">
+                  <p>JH</p>
+                  </div>
+                </div>
+              </div>
+             <div class="components card" style="width: 85%;">
+               <div class="components_circle"><i class="fas fa-check"></i></div>
+                 <p class="components_title">300+ components</p>
+                 <p class="components_sub">Built to be customized.</p>
+             </div>
+          </div>
+           <div class="wrap2">
+            <div class="airbnb card" style="width: 60%;">
+              <img src="./img/airbnb.svg" class="airbnb-logo" alt="airbnb-logo">
+              <div class="card-body">
+                <div class="stars">
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star other"></i>
+                </div>
+                <p class="airbnb-text">4.95 out of 5 stars</p>
+                <p class="airbnb-review">from 23 reviews</p>
+              </div>
+            </div>
+          
+        
+            <div class="company card" style="width: 60%;">
+             <img src="./img/company_01.png" class="company_logo" alt="company logo">
+             <div class="card-body">
+               <p class="company_text">Website UI Kit</p>
+          
+                  <img src="./img/person_01.jpg"  class="company_user" alt="user">
+                  <img src="./img/person_02.jpg" class="company_user" alt="user">
+                  <img src="./img/person_03.jpg" class="company_user" alt="user">
+                  <hr>
+                <div class="company_icons">
+                  <i class="fas fa-paperclip"></i>
+                  
+                  <i class="far fa-eye"></i>
+
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+           </div>
+            </div>
+           </div>
+        
+
+          <div class="projects__text3">
+            <h3>Technology</h3>
+            <p class="title">We use the latest<br>technologies on the market</p>
+            <p class="sub">Get components and examples, including tons of<br> variables that will help you grow your business.</p>
+            <a href="#">See case studies</a>
+          </div>
+        </div>
+
+          <div class="projects__text4 flex">
+            <div class="project__txt">
+            <h3>Easy to install</h3>
+            <p class="title">Download, install and run.</p>
+            <p class="sub">Get components and examples, including tons of variables<br> 
+                          that will help you grow your business.</p>  
+              
+
+
+
+                     
+              <div class="apple_logo">
+                <img src="./img/Apple_logo_white.svg" alt="apple_logo">
+                <p>Download on the App Store</p>
+              </div>
+              <div class="playstore_logo">
+                <img src="./img/play-store.png" alt="Google_logo">
+                <p>Download on the Play Store</p>
+              </div>  
+            </div>
+              <img src="./img/img_03.jpg" class="people"alt="people"> 
+          </div>
+
+
+          <div class="projects__end flex">
+            <div>
+              <h4>Infinite solution</h4>
+             <div class="text">
+               <p class="sub">Intuitive markup, powerful and lightning-fast build tools,<br>
+                everything you need to turn your ideas into incredible products.</p>
+             </div>
+            </div>
+              <button type="button" class="btn btn-primary btn-sm">Learn more <i class="fas fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </section>
+
+        <section class="awards">
+          <div class="awards__bg">
+            <div class="awards_text">
+              <h3 class="title">Awards</h3>
+            <p class="sub">Awards for design, creativity, and innovation on the Internet</p>
+           
+            
+          </div>
+
+
+
+              <div class="awards__testimonials">
+                <div class="airbnb card">
+                  <img src="./img/airbnb.svg" class="global-logo card-img-top" alt="airbnb-logo">
+                  <div class="card-body">
+                    <div class="stars">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star other"></i>
+                    </div>
+                    <p class="global-text">4.95 out of 5 stars</p>
+                    <p class="global-review">from 23 reviews</p>
+                  </div>
+                </div>
+
+                <div class="amazon card">
+                  <img src="./img/amazon.svg" class="global-logo card-img-top" alt="Amazon Logo">
+                  <div class="card-body">
+                    <p class="global-review">They build modern<br>looking websites easily<br> using Tabs.</p>
+                    <a href="#" class="more">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="slack card">
+                  <img src="./img/slack.svg" class="global-logo card-img-top" alt="Slack Logo">
+                  <div class="card-body">
+                    <p class="global-review">They build modern<br>looking websites easily<br> using Tabs.</p>
+                    <a href="#" class="more">Learn More</a>
+                  </div>
+                </div>
+
+                <div class="spotify card">
+                  <img src="./img/spotify.svg" class="global-logo card-img-top" alt="spotify-logo">
+                  <div class="card-body">
+                    <div class="stars">
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star other"></i>
+                    </div>
+                    <p class="global-text">4.95 out of 5 stars</p>
+                    <p class="global-review">from 23 reviews</p>
+                  </div>
+                </div>
+
+                <div class="paypal card">
+                  <img src="./img/paypal.svg" class="global-logo card-img-top" alt="paypal Logo">
+                  <div class="card-body">
+                    <p class="global-review">They build modern<br>looking websites easily<br> using Tabs.</p>
+                    <a href="#" class="more">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>  
+        </section>
+
+
+        <section class="faq">
+          <div class="faq__title">
+            <h3>Helpful answers</h3>
+            <p>Start building fast, beautiful, and modern-looking websites in no time.</p>
+          </div>
+          <div class="container">
+            <div class="accordion flex">
+              <div class="box1">
+              <div class="contentbx">
+                <div class="label"><i class="far fa-file"></i> Which license do I need?</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Cumque corrupti iure impedit 
+                     harum odio velit, nisi veritatis.
+                     Quos vel placeat ut, quo officia illo minima 
+                     deserunt temporibus, porro cumque nobis.</p>
+                </div>
+              </div>
+              <div class="contentbx">
+                <div class="label"><i class="fas fa-unlock"></i> How do I get access to my database?</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Cumque corrupti iure impedit 
+                     harum odio velit, nisi veritatis.
+                     Quos vel placeat ut, quo officia illo minima 
+                     deserunt temporibus, porro cumque nobis.</p>
+                </div>
+              </div>
+              <div class="contentbx">
+                <div class="label"><i class="far fa-folder"></i> How do I see previous orders?</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Cumque corrupti iure impedit 
+                     harum odio velit, nisi veritatis.
+                     Quos vel placeat ut, quo officia illo minima 
+                     deserunt temporibus, porro cumque nobis.</p>
+                </div>
+              </div>
+              </div>
+              <div class="box2">
+              <div class="contentbx">
+                <div class="label"><i class="far fa-file"></i> Which license do I need?</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Cumque corrupti iure impedit 
+                     harum odio velit, nisi veritatis.
+                     Quos vel placeat ut, quo officia illo minima 
+                     deserunt temporibus, porro cumque nobis.</p>
+                </div>
+              </div>
+              <div class="contentbx">
+                <div class="label"><i class="fas fa-unlock"></i> How do I get access to my database?</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Cumque corrupti iure impedit 
+                     harum odio velit, nisi veritatis.
+                     Quos vel placeat ut, quo officia illo minima 
+                     deserunt temporibus, porro cumque nobis.</p>
+                </div>
+              </div>
+              <div class="contentbx">
+                <div class="label"><i class="far fa-folder"></i> How do I see previous orders?</div>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Cumque corrupti iure impedit 
+                     harum odio velit, nisi veritatis.
+                     Quos vel placeat ut, quo officia illo minima 
+                     deserunt temporibus, porro cumque nobis.</p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+            <div class="faq__txt">
+              <p class="title">I want to start a new project.</p>
+              <div class="cta_faq">
+              <button type="button" class="btn btn-primary">Buy now <i class="fas fa-arrow-right"></i></button>
+              <a href="#" class="more">Learn more</a>
+              </div>
+            </div>
+        </section>
+
+
+        
+          
+          <footer class="footer">
+            <div class="footer__top">
+              <h3 class="title">Brilliant solutions for your ideas</h3>
+              <p class="sub">Modern-looking websites.</p>
+              <div class="cta">
+                <button type="button" class="btn btn-primary">Purchase now</button>
+                <button type="button" class="doc btn btn-primary"><i class="fas fa-book"></i> Documentation</button>
+              </div>
+            </div>
+            <div class=container>
+              <div class="footer__left">
+                <img src="./img/odoo-white.svg" alt="odoo logo">
+                <p>Odoo attempts to bring the best development experience
+                   to designers and developers by offering the tools
+                    needed for having a quick and solid start in
+                     most web projects.</p>
+                     <div class="socials">
+                       <a href="#"><i class="fab fa-dribbble"></i></a>
+                       <a href="#"><i class="fab fa-github"></i></a>
+                       <a href="#"><i class="fab fa-instagram"></i></a>
+                       <a href="#"><i class="fab fa-facebook"></i></a>
+                     </div>
+              </div>
+              <div class="footer__right">
+            </div>
+                <ul class="flex">
+                  <li>
+                    <h5>Account</h5>
+                      <ul class="box">
+                        <li><a href="#"></a>Profile</li>
+                        <li><a href="#"></a>Settings</li>
+                        <li><a href="#"></a>Billing</li>
+                        <li><a href="#"></a>Notifications</li>
+                      </ul>
+                  </li>
+                  <li class="features">
+                    <h5>About</h5>
+                      <ul class="box">
+                        <li><a href="#"></a>Services</li>
+                        <li><a href="#"></a>Pricing</li>
+                        <li><a href="#"></a>Contact</li>
+                        <li><a href="#"></a>Careers</li>
+                      </ul>
+                  </li>
+                  <li>
+                    <h5>Company</h5>
+                      <ul class="box">
+                        <li><a href="#"></a>Community</li>
+                        <li><a href="#"></a>Help center</li>
+                        <li><a href="#"></a>Support</li>
+                      </ul>
+                  </li>
+                </ul>
+              </div>
+              
+             
+              </div>
+              <div class="footer__bottom">
+                <p class="reserved">© <span>Odoo.</span> All rights reserved</p>
+                  <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Cookies</a></li>
+                  </ul>
+                  </div>
+          </footer>
+      
+        
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="./js/cardscript.js"></script>
+      <script type="text/javascript" src="./js/accordion.js"></script>
+  </body>
+</html>

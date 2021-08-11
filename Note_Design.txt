@@ -1,0 +1,16 @@
+About the things I've changed in the design :
+
+
+-The play video button seems more comfortable with an hover effect on the image
+
+-Added more contrast on the green 
+
+-Reduce the white space and some card width
+
+
+
+
+About what I think of the design :
+
+I think it's a really cool modern design, with really interesting things like the card, and their position.
+It's a very dynamic design and I've a had lot of fun to code it in HTML SCSS

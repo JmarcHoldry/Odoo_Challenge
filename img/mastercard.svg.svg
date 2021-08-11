@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="389" height="258" viewBox="0 0 389 258">
+  <g id="Groupe_3" data-name="Groupe 3" transform="translate(-1002 -254)">
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="389" height="258" rx="13" transform="translate(1002 254)" fill="#1d1348"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="53" height="30" rx="7" transform="translate(1309 282)" fill="#5bcaa5"/>
+    <g id="mastercard" transform="translate(1035 287)">
+      <g id="Master_Card_1_">
+        <g id="Master_Card">
+          <circle id="Red_x5F_Circle" cx="10" cy="10" r="10" fill="#f93232"/>
+          <path id="Yellow_x5F_Circle" d="M22,0a9.936,9.936,0,0,0-5.98,2H16v.014A10.06,10.06,0,0,0,14.893,3h2.214a9.7,9.7,0,0,1,.855,1H14.03a9.932,9.932,0,0,0-.667,1h5.264a10.27,10.27,0,0,1,.518,1H12.854a9.833,9.833,0,0,0-.377,1h7.044c.1.326.186.661.258,1H12.216a9.917,9.917,0,0,0-.157,1H19.94A8.457,8.457,0,0,1,20,10H12a10,10,0,0,0,.06,1h7.882c-.038.339-.093.672-.162,1H12.217a9.779,9.779,0,0,0,.261,1h7.044a9.832,9.832,0,0,1-.377,1H12.854a9.779,9.779,0,0,0,.509,1h5.264a9.782,9.782,0,0,1-.669,1H14.03a10.023,10.023,0,0,0,.862,1h2.215A10.049,10.049,0,0,1,16,17.986,10,10,0,1,0,22,0Z" fill="#fed049"/>
+        </g>
+      </g>
+    </g>
+    <text id="CARDNUMBER" transform="translate(1030 340)" fill="#fff" font-size="11.5" font-family="Poppins-Regular, Poppins"><tspan x="0" y="12">CARDNUMBER</tspan></text>
+    <text id="NAME" transform="translate(1030 427)" fill="#fff" font-size="11.5" font-family="Poppins-Regular, Poppins"><tspan x="0" y="12">NAME</tspan></text>
+    <text id="John_Snow" data-name="John Snow" transform="translate(1028 449)" fill="#fff" font-size="15" font-family="Poppins-Regular, Poppins"><tspan x="0" y="16">John Snow</tspan></text>
+    <text id="Active" transform="translate(1314 286)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="14">Active</tspan></text>
+    <text id="_11_23" data-name="11/23" transform="translate(1213 449)" fill="#fff" font-size="15" font-family="Poppins-Regular, Poppins"><tspan x="0" y="16">11/23</tspan></text>
+    <text id="EXPIRY_DATE" data-name="EXPIRY DATE" transform="translate(1211 427)" fill="#fff" font-size="11.5" font-family="Poppins-Regular, Poppins"><tspan x="0" y="12">EXPIRY DATE</tspan></text>
+    <text id="_4358_-_7421_-_9256_-_6682" data-name="4358 -  7421   -  9256 -  6682" transform="translate(1029 362)" fill="#fff" font-size="25" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="26">4358 </tspan><tspan y="26" font-size="20">-</tspan><tspan y="26" xml:space="preserve">  7421   </tspan><tspan y="26" font-size="20">-</tspan><tspan y="26" xml:space="preserve">  9256 </tspan><tspan y="26" xml:space="preserve" font-size="20">-  </tspan><tspan y="26">6682</tspan></text>
+  </g>
+</svg>
